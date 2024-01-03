@@ -18,7 +18,7 @@ public class JustAnotherTantrosMod extends Mod{
         Events.on(ClientLoadEvent.class, e -> {
             Planets.tantros.accessible = Planets.tantros.alwaysUnlocked = Planets.tantros.visible = true;
             Planets.tantros.allowLaunchToNumbered = Planets.tantros.allowLaunchLoadout = false;
-        })
+        });
     }
 
     @Override
