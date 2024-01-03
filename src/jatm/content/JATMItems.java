@@ -31,7 +31,7 @@ public class JATMItems{
             cost = 0.7f;            
         }};
 
-        tantrosItems.addAll(lead, metaglass, silicon, aluminium, corundum, lye, quicklime);
-        tantrosOnlyItems.addAll(tantrosItems).removeAll(serpuloItems);
+        tantrosItems.addAll(Items.lead, Items.metaglass, Items.silicon, aluminium, corundum, lye, quicklime);
+        tantrosOnlyItems.addAll(tantrosItems).removeAll(Items.serpuloItems);
     }
 }
