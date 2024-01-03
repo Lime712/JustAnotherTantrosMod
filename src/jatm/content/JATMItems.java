@@ -3,7 +3,7 @@ package jatm.content;
 import arc.graphics.*;
 import arc.struct.*;
 import mindustry.type.*;
-import mindustry.content.items.*;
+import mindustry.content.*;
 
 public class JATMItems{
     public static Item
@@ -13,7 +13,7 @@ public class JATMItems{
 
     public static void load(){
         aluminium = new Item("aluminium", Color.valueOf("a89fc9")){{
-            hardness = 4;
+            hardness = 3;
             cost = 0.6f;
             healthScaling = 0.1f;
         }};
@@ -31,7 +31,7 @@ public class JATMItems{
             cost = 0.7f;            
         }};
 
-        tantrosItems.addAll(lead, metaglass, aluminium, corundum, lye, quicklime);
+        tantrosItems.addAll(lead, metaglass, silicon, aluminium, corundum, lye, quicklime);
         tantrosOnlyItems.addAll(tantrosItems).removeAll(serpuloItems);
     }
 }

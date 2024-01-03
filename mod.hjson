@@ -1,23 +1,23 @@
 #the mod name as displayed in-game
-displayName: "Java Mod Template"
+displayName: "Just Another Tantros Mod"
 
 #the internal name of your mod
-name: "example-java-mod"
+name: "jatm"
 
 #your name
-author: "You"
+author: "Lime712"
 
 #the fully qualified main class of the mod
-main: "example.ExampleJavaMod"
+main: "jatm.JustAnotherTantrosMod"
 
 #the mod description as seen in the mod dialog
-description: "A Mindustry Java mod template."
+description: "[red]EN: Adds the hidden planet Tantros, along with additional content (like many other mods). Does not support iOS devices.[gold]\n\nDE: Fügt der versteckte Planet Tantros das Spiel hinzu, zusammen mit zusätzlichen Inhalt (Wie eine Menge andere Mods). Nicht verfügbar auf iOS"
 
 #the mod version
-version: 1.0
+version: 0
 
 #the minimum game build required to run this mod
-minGameVersion: 145
+minGameVersion: 146
 
 #this is a java mod
 java: true
