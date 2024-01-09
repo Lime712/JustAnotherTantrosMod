@@ -1,6 +1,6 @@
 #the mod name as displayed in-game
 displayName: "Just Another Tantros Mod"
-
+hideBrowser: true
 #the internal name of your mod
 name: "jatm"
 
