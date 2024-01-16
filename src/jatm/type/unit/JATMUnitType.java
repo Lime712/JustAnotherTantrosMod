@@ -17,5 +17,6 @@ public class JATMUnitType extends UnitType{
         ammoType = new ItemAmmoType(Items.aluminium);
         researchCostMultiplier = 10f;
         immunities.addAll(StatusEffects.wet, StatusEffects.shocked, StatusEffects.burning, StatusEffects.sporeSlowed);
+        engineSize = -1f;
     }
 }
