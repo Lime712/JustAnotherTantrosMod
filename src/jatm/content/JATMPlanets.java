@@ -50,6 +50,6 @@ public class JATMPlanets{
             r.coreDestroyClear = true;
             r.onlyDepositCore = true;
             };
-        }}
+        }};
     };
 }
