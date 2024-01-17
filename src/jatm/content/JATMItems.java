@@ -5,6 +5,7 @@ import arc.struct.*;
 import mindustry.type.*;
 import mindustry.content.*;
 import mindustry.*;
+import jatm.content.JATMPlanets;
 
 public class JATMItems{
     public static Item
@@ -50,10 +51,6 @@ public class JATMItems{
         }}*/
 
         tantrosItems.addAll(Items.lead, Items.metaglass, Items.silicon, Items.surgeAlloy, aluminium, corundum, quicklime);
-        tantrosOnlyItems.addAll(tantrosItems).removeAll(Items.serpuloItems);
-        for (Planet planet : Vars.content.planets()) {
-            if (planet.name != "tantros")
-                planet.hiddenItems.addAll(JATMItems.tantrosOnlyItems);
-        }
+        tantrosOnlyItems.addAll(tantrosItems).removeAll(Items.serpuloItems);        
     }
 }

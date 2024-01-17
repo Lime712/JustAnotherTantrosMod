@@ -21,7 +21,12 @@ public class JustAnotherTantrosMod extends Mod{
 
     @Override
     public void loadContent(){
+        JATMPlanets.load();
         JATMItems.load();
         JATMLiquids.load();
+        for (Planet planet : Vars.content.planets()) {
+            if (planet.name != "fakeTantros")
+                planet.hiddenItems.addAll(JATMItems.tantrosOnlyItems);
+        }
     }
 }
