@@ -5,7 +5,6 @@ import arc.struct.*;
 import mindustry.type.*;
 import mindustry.content.*;
 import mindustry.*;
-import jatm.content.JATMPlanets;
 
 public class JATMItems{
     public static Item

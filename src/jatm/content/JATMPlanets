@@ -19,6 +19,8 @@ import mindustry.content.*;
 public class JATMPlanets{
     public static Planet fakeTantros;
 
+    public static void load(){
+
     fakeTantros = new Planet("fakeTantros", Planets.sun, 1f, 2){{
         alwaysUnlocked = true;
         //temp generator
@@ -47,5 +49,5 @@ public class JATMPlanets{
             r.lighting = false;
             r.coreDestroyClear = true;
             r.onlyDepositCore = true;
-    }}}
+    }}}}
 }
