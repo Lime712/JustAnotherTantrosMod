@@ -28,15 +28,15 @@ public class JATMItems{
             cost = 0.7f;            
         }};
 
-        /*magnetite = new Item("magnetite", Color,valueOf("000000")){{
+        cement = new Item("cement", color.valueOf("8c9b82")){{
+            cost = 1f;
+            healthScaling = 1.1f;
+        }};
+        
+        /*magnetite = new Item("magnetite", Color,valueOf("405859")){{
             hardness = 5;
             cost = 0.8f;
             healthScaling = 0.2f;
-        }};
-        
-        cement = new Item("cement", color.valueOf("000000")){{
-            cost = 1f;
-            healthScaling = 1.1f;
         }};
         
         vinyl = new Item("vinyl", color.valueOf("000000")){{
