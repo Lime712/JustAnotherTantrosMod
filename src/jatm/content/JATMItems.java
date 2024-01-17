@@ -8,7 +8,7 @@ import mindustry.*;
 
 public class JATMItems{
     public static Item
-    aluminium, corundum, lye, quicklime;//magnetite, cement, vinyl, steel
+    aluminium, corundum, lye, quicklime, cement, magnetite;//magnetite, cement, vinyl, steel
 
     public static final Seq<Item> tantrosItems = new Seq<>(), tantrosOnlyItems = new Seq<>();
 
@@ -28,18 +28,18 @@ public class JATMItems{
             cost = 0.7f;            
         }};
 
-        cement = new Item("cement", color.valueOf("8c9b82")){{
+        cement = new Item("cement", Color.valueOf("8c9b82")){{
             cost = 1f;
             healthScaling = 1.1f;
         }};
         
-        /*magnetite = new Item("magnetite", Color,valueOf("405859")){{
+        magnetite = new Item("magnetite", Color.valueOf("405859")){{
             hardness = 5;
             cost = 0.8f;
             healthScaling = 0.2f;
         }};
         
-        vinyl = new Item("vinyl", color.valueOf("000000")){{
+        /*vinyl = new Item("vinyl", color.valueOf("000000")){{
             cost = 0.6f;
             explosiveness = 0.1f;
         }};

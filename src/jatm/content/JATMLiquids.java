@@ -5,7 +5,7 @@ import mindustry.type.*;
 import mindustry.content.*;
 
 public class JATMLiquids{
-    public static Liquid acid, brine; //methane
+    public static Liquid chlorine, brine; //methane
 
     public static void load(){
         chlorine = new Liquid("chlorine", Color.valueOf("dce86e")){{
