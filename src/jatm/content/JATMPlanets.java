@@ -39,7 +39,7 @@ public class JATMPlanets{
         atmosphereRadIn = -0.01f;
         atmosphereRadOut = 0.3f;
         defaultEnv = Env.underwater | Env.terrestrial;
-        landCloudColor = Color.valueOf("915c9b").a(0.5f)
+        landCloudColor = Color.valueOf("915c9b").a(0.5f);
         ruleSetter = r -> {
             r.waveTeam = Team.green;
             r.placeRangeCheck = false;
@@ -49,5 +49,7 @@ public class JATMPlanets{
             r.lighting = false;
             r.coreDestroyClear = true;
             r.onlyDepositCore = true;
-    }}}}
+            };
+        }}
+    };
 }

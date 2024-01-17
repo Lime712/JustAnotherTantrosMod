@@ -3,4 +3,4 @@ A Java Mindustry mod that works on Android and PC, made by Lime712. **Does not s
 
 ## Content
 Currently: 3 new items, 2 new liquids  
-Planned: 8 new items, 3 new liquids, >19 new blocks, ?? new units
+Planned: 8 new items, 3 new liquids, >19 new blocks, maybe like 20 new units
